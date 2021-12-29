@@ -573,7 +573,7 @@ a{
 		padding: 3px 0;
 	}
 	#moblie_asideMenu>ul>li>a>span{
-		font-size:12px;
+		font-size:10.5px;
 		font-weight:600;
 	}
 }
@@ -586,9 +586,9 @@ a{
 	justify-content: center;
 	}
 	#footer>.footer_menu>.left_footer>ul>li{
-		font-size:12px;
+		font-size:11px;
 	}
 	#footer>.footer_menu>.right_footer>a{
-		font-size:12px;
+		font-size:11px;
 	}
 }

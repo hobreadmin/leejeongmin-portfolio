@@ -556,6 +556,9 @@ body{
 	font-weight: 500;
 	font-size:30px;
 }
+.contact-me ul .number{
+	color: #fff;
+}
 .contact-me ul .thankyou{
 	font-size:15px;
 	font-weight: 200;
@@ -792,8 +795,8 @@ html.not-scroll > body{
 		height:auto;
 	}
 	.lnb-wrap{
-	transform: translateY(-100%);
-	transition: transform .4s;
+		transform: translateY(-100%);
+		transition: transform .4s;
 	}
 	.lnb-wrap.active{
 		transform: translateY(0);
@@ -803,7 +806,6 @@ html.not-scroll > body{
 		margin-top:70px;
 		flex-direction: column;
 	}
-	
 	.lnb li{
 		width:100%;
 		text-align: center;
@@ -824,7 +826,6 @@ html.not-scroll > body{
 	}
 	#home>.home{
 		padding: 30px 20px;
-		justify-content: space-around;
 	}
 	#home>.home>i{
 		top:20px;
@@ -993,10 +994,10 @@ html.not-scroll > body{
 		font-size:16px;
 	}
 	.slider_pc #skywalkers_box .title{
-		font-size:15.5px;
+		font-size:15px;
 	}
 	.slider_pc .text-box .portfolio_btn li{
-		padding:0 7px;
+		padding:0 5px;
 	}
 	.slider_pc .text-box .portfolio_btn a{
 		padding: 13px 25px;
