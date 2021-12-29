@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>REQUEST | simple lee</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<link rel="stylesheet" href="../style/style_request.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script src="../script/script.js"></script>
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<h1><a href="../index.html"><img src="../images/simplelee_logo.png" alt="simple lee"></a></h1>
+			<nav class="lnb">
+				<ul>
+					<li><a href="../about/about.html">ABOUT</a></li>
+					<li><a href="../portfolio/portfolio_house.html">PORTFOLIO</a></li>
+					<li><a href="request.html">REQUEST</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="contents">
+			<h2>견적문의</h2>
+			<p>Please Write Your Estimate Question</p>
+			<div class="re_form">
+				<form>
+					<div class="form_group">
+						<label for="form_name">성함<span>&#9679;</span></label>
+						<input type="text" name="form_name" id="form_name" required>
+					</div>
+					<div class="form_group">
+						<label for="form_tel">연락처<span>&#9679;</span></label>
+						<input type="text" name="form_tel" id="form_tel" required>
+					</div>
+					<div class="form_group">
+						<label for="form_email">이메일<span>&#9679;</span></label>
+						<input type="text" name="form_email" id="form_email" required>
+					</div>
+					<div class="form_group">
+						<label for="control_label">건물유형<span>&#9679;</span></label>
+						<div class="form_radio">
+							<label for="place_house"><input type="radio" name="form_place" id="place_house"><span>주거 공간</span></label>
+							<label for="place_business"><input type="radio" name="form_place" id="place_business"><span>상업 공간(식당, 카페, 오피스 등)</span></label>
+							<label for="place_etc"><input type="radio" name="form_place" id="place_etc"><span>기타</span></label>
+						</div>
+					</div>
+					<div class="form_group">
+						<label for="control_label">심플리를 알게된 경로</label>
+						<div class="form_radio">
+							<label for="form_internet"><input type="radio" name="radio_simple" id="form_internet"><span>인터넷 서치</span></label>
+							<label for="form_insta"><input type="radio" name="radio_simple" id="form_insta"><span>인스타그램</span></label>
+							<label for="form_intro"><input type="radio" name="radio_simple" id="form_intro"><span>지인소개</span></label>
+							<label for="form_etc"><input type="radio" name="radio_simple" id="form_etc"><span>기타</span></label>
+						</div>
+					</div>
+					<div class="form_group">
+						<label for="form_floorspace">건물평수 (분양평수)<span>&#9679;</span></label>
+						<input type="text" name="form_floorspace" id="form_floorspace" required>
+					</div>
+					<div class="form_group">
+						<label for="form_address">주소<span>&#9679;</span></label>
+						<input type="text" name="form_address" id="form_address" placeholder="주소" required>
+						<input type="text" name="form_address" id="form_better" placeholder="상세주소" required>
+					</div>
+					<div class="form_group" id="group_date">
+						<label for="form_date">공사 시작 희망일<span>&#9679;</span></label>
+						<input type="date" name="form_date" id="form_date" required>
+					</div>
+					<div class="form_group" id="group_sch">
+						<label for="form_schedule">입주 예정일</label>
+						<input type="text" name="form_schedule" id="form_schedule">
+					</div>
+					<div class="form_group" id="group_fam">
+						<label for="form_family">가족 구성원</label>
+						<input type="number" name="form_family" id="form_family" min="1" max="100">
+					</div>
+					<div class="form_group">
+						<label for="form_budget">예산<span>&#9679;</span></label>
+						<input type="text" name="form_budget" id="form_budget" required>
+					</div>
+					<div class="btn_write">
+						<button class="write" type="submit">작성</button>
+					</div>
+				</form>
+			</div>
+			
+		</div>
+		<footer>
+			<div class="footer_wrap">
+				<div class="left_footer">
+					<h2>
+						고객센터<br>
+						<span>031-471-7844</span>
+					</h2>
+					<p>평일 | 09:00 - 19:00</p>
+					<p>점심시간 | 12:00 - 13:00</p>
+
+					<ul>
+						<li><a href="#">오시는 길</a></li>
+						<li><a href="#">1:1 문의</a></li>
+					</ul>
+				</div>
+				<div class="right_footer">
+					<ul>
+						<li><a href="#">개인정보처리방침</a></li>
+						<li><a href="#">이용약관</a></li>
+						<li><a href="#">사업자등록확인</a></li>
+						<li><a href="#">이용안내</a></li>
+					</ul>
+					<p>
+						법인명(상호):심플리 대표자:이민지 사업자등록번호:616-14-80302<br>
+						본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.<br>
+						주소:경기도 안양시 동안구 행정로784번길 41 IT산업단지 1040호<br>
+						전화:031-471-7844 제휴문의:park_hj@simplelee.com
+					</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div class="bottom_footer">
+		© 2021 Jeong-Min Lee. All Rights Reserved.
+	</div>
+</body>
+</html>
