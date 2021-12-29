@@ -975,20 +975,30 @@ html.not-scroll > body{
 		padding-left: 0;
 	}
 	.about-wrap>.about-contents>.con_right>.eduwork-license>.eduwork>dl dt{
-		font-size:15px;
-		width:142px;
+		font-size:14px;
+		width:140px;
 	}
 	.about-wrap>.about-contents>.con_right>.eduwork-license>.eduwork>dl dd{
-		font-size:15px;
+		font-size:14px;
 	}
 	.about-wrap>.about-contents>.con_right>.eduwork-license>.license>dl dt{
-		font-size:15px;
-		width:70px;
+		font-size:14px;
+		width:69px;
 	}
 	.about-wrap>.about-contents>.con_right>.eduwork-license>.license>dl dd{
-		font-size:15px;
+		font-size:14px;
+	}
+	.slider_pc .text-box .title{
+		font-size:16px;
+	}
+	.slider_pc #skywalkers_box .title{
+		font-size:15.5px;
 	}
 	.slider_pc .text-box .portfolio_btn li{
-		padding:0 10px;
+		padding:0 7px;
+	}
+	.slider_pc .text-box .portfolio_btn a{
+		padding: 13px 25px;
+		font-size:14px;
 	}
 }

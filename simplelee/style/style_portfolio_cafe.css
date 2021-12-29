@@ -272,9 +272,9 @@ footer>.footer_wrap>.right_footer>p{
 }
 @media screen and (max-width:500px){
 	header>.lnb>ul>li{
-		padding-left:7px;
+		padding-left:2px;
 	}
 	header>.lnb>ul>li>a{
-		font-size:15px;
+		font-size:13.3px;
 	}
 }
