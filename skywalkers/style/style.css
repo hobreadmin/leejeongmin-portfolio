@@ -16,7 +16,6 @@ a{
 }
 body{
 	font-family: 'NanumSquare', sans-serif;
-	/*background-color:#ccc;*/
 }
 #wrap{
 	position:relative;
@@ -160,15 +159,16 @@ header>.header_wrap>.gnb_pc_wrap>.lnb>nav>ul>li:last-child{
 }
 /******************* .mainbanner *******************/
 .mainbanner{
-	position:absolute;
-	top:0;
-	left:0;
-	background: url(../images/mainbanner_1.png) no-repeat center/cover;
-	width:100%;
-	height:1080px;	
 	display: flex;
 	align-items:center;
 	justify-content: center;
+	position:absolute;
+	top:0;
+	left:50%;
+	transform: translateX(-50%);
+	background: url(../images/mainbanner_1.png) no-repeat center/cover;
+	width:100%;
+	height:960px;
 	z-index: 25;
 }
 .mainbanner>.main_title{
@@ -184,7 +184,7 @@ header>.header_wrap>.gnb_pc_wrap>.lnb>nav>ul>li:last-child{
 	top:0px;
 	right:-10px;
 	width:4px;
-	height:100%;
+	height:auto;
 	background-color:#fff;
 }
 .mainbanner>.main_title.active::after{
@@ -192,7 +192,7 @@ header>.header_wrap>.gnb_pc_wrap>.lnb>nav>ul>li:last-child{
 }
 .mainbanner_section{
 	width:100%;
-	height:1080px;
+	height:960px;
 }
 /******************* .match_sch *******************/
 .match_sch{
@@ -383,16 +383,17 @@ footer{
 }
 footer>.foot_menu{
 	width:100%;
-	border-top:1px solid #ccc;
-	border-bottom:1px solid #ccc;
 	height:80px;
 	line-height: 80px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
 }
 footer>.foot_menu>.menu_sns{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	width:1400px;
+	height:80px;
 	margin: 0 auto;
 }
 footer>.foot_menu>.menu_sns>ul{
@@ -424,6 +425,7 @@ footer>.foot_copy .copy-wrap{
 	height:300px;
 	width:1400px;
 	margin: 0 auto;
+	background-color:#f3f3f3;
 }
 footer>.foot_copy .copy-wrap p{
 	line-height: 30px;
